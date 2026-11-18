@@ -1,8 +1,8 @@
-function Item({marca}){
+function Item({marca, ano_lancamento}){
     return (
         <>
-            <li>{marca}</li>
-            <li>{marca}</li>
+            <li>{marca} - {ano_lancamento}</li>
+            <li>{marca} - {ano_lancamento }</li>
         </>
     )
 }
